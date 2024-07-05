@@ -9,7 +9,7 @@
     <field name="res_model">library.book</field>
     <field name="view_mode">tree,form</field>
   </record>
-  <!-- Old act_window, deprecated
+  <!-- Old act_wndow, deprecated
   <act_window id="action_library_book"
     name="Library Books"
     res_model="library.book"
@@ -18,7 +18,7 @@
   -->
   <!-- Menu item to open the Book list -->
   <menuitem id="menu_library_book"
-    name="Books"
+    name="Books" 
     parent="menu_library"
     action="action_library_book"
   />
